@@ -48,7 +48,6 @@ const defaultItem = [foundResultitem1,item2];
 //   }else{console.log("Successfully saved Default items to DB");}
 // });
 
-
 app.get("/", function(req, res) {
 
 // foundResult will be contains all the items
