@@ -33,11 +33,11 @@ const listSchema = new mongoose.Schema({
 const List = mongoose.model("List", listSchema);
 
 const foundResultitem1 = new Item ({
-  name : "test"
+  name : "Welcome to your todolist"
 });
 
 const item2 = new Item ({
-  name : "wlcome"
+  name : "Hit the + button to add a new item."
 });
 
 const defaultItem = [foundResultitem1,item2];
